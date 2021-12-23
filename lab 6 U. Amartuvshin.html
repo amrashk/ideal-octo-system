@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+<style>
+.button {
+  background-color: gray;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 30px 60px;
+
+}
+
+.button:hover {opacity: 1}
+
+.color{
+  background-color: gray;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 30px 60px;
+}
+
+.color:hover {
+  color: black;
+}
+.container{
+	display: flex;
+	justify-content:space-between;
+	font-family: "Audiowide", sans-serif;
+}
+.grow{
+  background-color: gray;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 30px 60px;	
+}
+.grow:hover{
+  background-color: gray;
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.rotate{
+  background-color: gray;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 30px 60px;
+}
+.rotate:hover{
+  background-color: gray;
+  -ms-transform: rotate(-20deg);
+  transform: rotate(-20deg);
+}
+.shrink{
+  background-color: gray;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin: 4px 2px;
+  transition: 0.3s;
+  cursor: pointer;
+  padding: 30px 60px;	
+}
+.shrink:hover{
+  background-color: gray;
+  -ms-transform: scale(0.7);
+  transform: scale(0.7);
+}
+.click{
+  border: 2px solid gray;
+  background-color: gray;
+  color: gray;
+  text-align: center;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 30px 60px; 
+}
+.animation{
+  background: linear-gradient(to right, gray 50%, white 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  transition: 0.5s ease-out;
+  color:gray;
+    
+}
+.animation:hover{
+ background-position: left bottom;
+ color:white;
+}
+</style>
+</head>
+<body>
+	<div class="container">
+		<div class="button">Fade In</div>
+		<div class="color" >Color</div>
+		<div class="grow">Grow</div>
+		<div class="shrink">Shrink</div>
+		<div class="rotate">Rotate</div>
+		<div class="click animation">Click me</div>
+	</div>
+
+</body>
+</html>

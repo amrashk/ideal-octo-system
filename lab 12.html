@@ -1,0 +1,222 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+	<p>?????</p>
+	<script type="text/javascript">
+		//1
+		/*function getArea(){
+			r = prompt("Radius-g oruul");
+			area = Math.PI * Math.pow(r, 2);
+			document.writeln("Toirgiin talbai ni " +area);
+		}
+		getArea();
+		*/
+
+		//2
+		/*function calculateCharges(){
+			var time;
+			var number;
+			time = prompt("Zogsson tsag oruul ");
+			number = parseInt(time);
+			time <25;
+			if(time<=3){
+				document.writeln(5000)
+			} else{
+				time = number + 2;
+				document.writeln("" + time*1000)
+			}
+		}
+		calculateCharges();
+		*/
+
+		//3
+		/*
+		function getDistance(x1, y1, x2, y2){
+		var x1 = 1
+		var y1 = 5
+		var x2 = 4
+		var y2 = 5
+    	let y = x2 - x1;
+    	let x = y2 - y1;
+    	distance = Math.sqrt(x * x + y * y);
+    	document.writeln("distance " +distance);
+		}
+		getDistance();
+		*/
+
+		//4
+		/*
+		function getRandom(){
+			randomNumber = Math.floor(Math.random()*2+1);
+			document.writeln(randomNumber);
+		}
+		getRandom();
+		*/
+		/*
+		function getRandom(){
+			randomNumber = Math.floor(Math.random()*100+1);
+			document.writeln(randomNumber);
+		}
+		getRandom();
+		*/
+		/*
+		function getRandom(){
+			randomNumber = Math.floor(Math.random()*10);
+			document.writeln(randomNumber);
+		}
+		getRandom();
+		*/
+		/*
+		function getRandom(){
+			randomNumber = Math.floor(Math.random()*113+1000);
+			document.writeln(randomNumber);
+		}
+		getRandom();
+		*/
+		/*
+		function getRandom(){
+			randomNumber = Math.floor(Math.random()*3-1);
+			document.writeln(randomNumber);
+		}
+		getRandom();
+		*/
+		/*
+		function getRandom(){
+			randomNumber = Math.floor(Math.random()*15-3);
+			document.writeln(randomNumber);
+		}
+		getRandom();
+		*/
+
+
+		//5
+		/*
+		function getPow(){
+			var x;
+			var n;
+			x = window.prompt("x=");
+			n = window.prompt("zereg=");
+			pow = x ** n;
+			document.writeln(pow);
+		}
+		getPow();
+		*/
+
+
+		//6
+		/*
+		function multiply(){
+			a = 6;
+			b = 3;
+			if (a%b=0)
+				return true;
+			else 
+				return false;
+		}
+		multiply();
+		*/
+		
+
+ 		//7
+ 		/*
+		function isEven() {
+			var x;
+			x = window.prompt("utga=")
+			if ( x % 2 == 0) {
+					alert('Even Number');
+				}else{
+					alert('Odd Number');
+			}
+		}
+		isEven();
+		*/
+
+
+
+		//8
+		/*
+		function noogdvor(){
+			var a = window.prompt("a=");
+			var b = window.prompt("b=");
+			value = a/b
+			document.writeln("noogvor=" +value);
+		}
+		noogdvor();
+		*/
+
+		/*
+		function uldegdel(){
+			var a = window.prompt("a=");
+			var b = window.prompt("b=");
+			value = a%b
+			document.writeln("uldegdel=" +value);
+		}
+		uldegdel();
+		*/
+
+
+		//9
+		/*
+		function celsius() {
+  		var cels = window.prompt("celius=")
+  		cToFahr = cels * 9 / 5 + 32;
+  		document.writeln(cToFahr);
+		}
+		celsius();
+		*/
+
+		/*
+		function fahrenheit() {
+  		var fahr = window.prompt("Fahrenheit=")
+  		C = (fahr - 32) * 5 / 9;
+  		document.writeln(C);
+		}
+		fahrenheit();
+		*/
+
+		//10
+		/*
+		function minimum(){
+			var numbers = [0.01, 0.1, 0.2, 0.0005];
+			min = Math.min(...numbers);
+			document.writeln(min)
+		}
+		minimum();
+		*/
+
+
+		//11
+		/*
+		function dun(){
+		    n = window.prompt("n=");
+			if ( n>=90 && n<=100 ) 
+			document.writeln("A");
+			else if ( n>=80 && n <90 ) 
+			document.writeln("B");
+			else if ( n>=70 && n< 80 )
+			document.writeln("C");
+			else if ( n>=60 && n<70)
+			document.writeln("D");
+			else
+			document.writeln("F");
+		}
+		dun();
+		*/
+
+
+		//12
+		function zoos(){
+			randomNumber = (Math.random()*2);
+			if (randomNumber > 1){
+				document.getElementById("hariu").innerHTML= "Suld";
+			} else {
+				document.getElementById("hariu").innerHTML= "Too";
+			}
+		}
+	</script>
+	<button onclick="zoos();">Zoos erguuleh</button>
+	<p id="hariu"></p>
+	</body>
+</html>

@@ -1,0 +1,155 @@
+<html>
+<script>
+//1
+
+function getDate(){
+	d = new Date();
+	alert(d);
+}
+function getDay(){
+	d = new Date();
+	var d = new Date(new Date().getTime() - (24 * 60 * 60 * 1000));
+	alert(d);
+}
+function getYear(){
+	d = new Date();
+	alert(d.getFullYear()-10);
+}
+function getWeek(){
+	d = new Date();
+	var d = new Date(new Date().getTime() - (7*24 * 60 * 60 * 1000));
+	alert(d);
+}
+
+//2
+/*
+x = Math.ceil(0.7)
+document.writeln(x);
+
+x = Math.exp(1)
+document.writeln(x);
+
+x = Math.floor(9.12)
+document.writeln(x);
+
+x = Math.max(1, 2)
+document.writeln(x);
+
+x = Math.min(4, 5)
+document.writeln(x);
+
+x = Math.pow(2, 7)
+document.writeln(x);
+
+x = Math.round(9.75)
+document.writeln(x);
+
+x = Math.sin(0)
+document.writeln(x);
+
+x = Math.sqrt(16)
+document.writeln(x);
+*/
+
+//3
+/*
+x = window.prompt("too oruul")
+y = Math.floor( x * 10 + .50 ) /10;
+document.writeln(y);
+*/
+
+/*
+x = window.prompt("too oruul")
+y = Math.floor( x * 10 + .5 ) / 10;
+document.writeln(y);
+*/
+/*
+x = window.prompt("too oruul")
+y = Math.floor( x * 100 + .5 ) / 100;
+document.writeln(y);
+*/
+/*
+x = window.prompt("too oruul")
+y = Math.floor( x * 1000 + .5 ) / 1000;
+document.writeln(y);
+*/
+
+//4
+/*
+a = window.prompt("a=");
+b = window.prompt("b=");
+var length1 = a.length
+var length2 = b.length
+if (length1 > length2){
+	document.writeln(a)
+} else {
+	document.writeln(b)
+}
+*/
+
+//5
+/*
+str1 = prompt("ehnii string oruul");
+count=0;
+for(i=0; i<str1.length; i++){
+	if(str1[i] == ' ') count++;
+}
+alert("+(976) "+str1)
+*/
+
+//6
+/*
+str = window.prompt("text oruul")
+const strReverse = str.split('').reverse().join('')
+document.writeln(strReverse)
+*/
+
+//7
+/*
+a = window.prompt("text oruul")
+let result = a.toUpperCase();
+let result = a.toLowerCase();
+document.writeln(result);
+*/
+
+//8
+/*
+a = window.prompt("oguulber=")
+b = window.prompt("ug=")
+let result = a.indexOf(b);
+function digits_count(n) { 
+	var count = 0; 
+	if (n >= 1) ++count; 
+	while (n / 10 >= 1) { n /= 10; ++count; } 
+	return count; 
+} 
+foundCount = digits_count(result);
+document.writeln(foundCount);
+*/
+
+
+//10
+/*
+a = window.prompt("oguulber=")
+result = a.match(/(\bb\S+\b)/ig);
+document.write(result);
+*/
+
+//12
+/*
+const weekday = ["Ням","Даваа","Мягмар","Лхагва","Пүрэв","Баасан","Бямба"];
+const d = new Date("December 1, 2021");
+let day = weekday[d.getDay()];
+document.writeln(day)
+*/
+
+
+
+</script>
+<body>
+<button onclick="getDate()">Today</buttom>
+<button onclick="getDay()">24 tsagin omno</buttom>
+<button onclick="getYear()">10 jil</buttom>
+<button onclick="getWeek()">7 honog</buttom>
+</body>
+</html>
