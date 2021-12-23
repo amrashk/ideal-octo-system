@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>20B1NUM0908</title>
+	</head>
+	<body> 
+		<img src="zurag.jpg" width="150" height="180" alt="Profile picture" align="left">  
+		<br><h1>Амартүвшин<br>Оюутан</br>20b1num0908</h1>
+		<br>
+		<h2>Дуу сонсох, бичлэг үзэх, кино үзэх дуртай</h2>
+		<img src="zurag 2.png" width="100" height="100" alt="Youtube" align="left">
+		<a href="https://www.youtube.com"><br></br>Youtube рүү орж үзээрэй</a>
+		<br>
+		<br>
+		<br>
+
+		<ol><h2>Хамгийн их ордог 5 сайтын жагсаалт:</h2>
+			<li><a href="https://www.youtube.com/">Youtube</a></li>
+			<li><a href="https://www.facebook.com/">Facebook</a></li>
+			<li><a href="https://www.instagram.com/">Instagram</a></li>
+			<li><a href="https://www.netflix.com/">Netflix</a></li>
+			<li><a href="https://www.twitch.tv/">Twitch</a></li>
+		</ol>
+		<h2>Зургийн цомог</h2>
+			<img src="zurag 3.jpg" width="500" height="250" alt="autumn">
+			<img src="zurag 4.jpg" width="500" height="250" alt="forest">
+			<img src="zurag 6.jpg" width="500" height="250" alt="ocean">
+		<ul>Зураг үзэх холбоосууд:
+			<li><a href="https://www.dreamstime.com/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-image131400332">Намар зураг</a></li>
+			<li><a href="https://www.freedigitalphotos.net/images/illustration-digital-painting-forest-scene-photo-p394230">Ойн зураг</a></li>
+			<li><a href="https://freerangestock.com/photos/141057/bright-colorful-sunset-on-the-beach--hazy-looks.html">Далайн зураг</a></li>
+		</ul>
+		<h2>Бичлэг</h2>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/9ix7TUGVYIo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/u9ogekMsrLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/e4bptIoZFDE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/RGENf0v8G38" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		<ul>Бичлэг үзэх холбоосууд:
+			<li><a href="https://www.youtube.com/embed/9ix7TUGVYIo">1</a></li>
+			<li><a href="https://www.youtube.com/embed/u9ogekMsrLA">2</a></li>
+			<li><a href="https://www.youtube.com/embed/e4bptIoZFDE">3</a></li>
+			<li><a href="https://www.youtube.com/embed/RGENf0v8G38">4</a></li>
+		</ul>
+	</body>
+</html>
